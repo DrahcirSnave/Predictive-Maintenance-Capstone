@@ -58,7 +58,7 @@ cd Predictive-Maintenance-Capstone
 ```bash
 pip install -r requirements.txt
 ```
-**Step 3: Rund the Dashboard**
+**Step 3: Run the Dashboard**
 ```bash
 streamlit run app.py
 ```
