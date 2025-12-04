@@ -26,6 +26,7 @@ graph LR
     D --> F[Streamlit Dashboard];
     E --> F;
     F --> G[Maintenance Alert];
+```
 ---
 ### 📊 Key Results
 * **Latency:** < 100ms (Real-time capable)
