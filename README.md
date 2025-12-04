@@ -43,11 +43,37 @@ You can view our full project presentation slides here:
 ## 🚀 Live Demonstration
 This repository includes a **Live Dashboard** built with Streamlit. This dashboard simulates real-time sensor data ingestion and shows the AI model predicting engine health.
 
-### Installation & Running Instructions
-
-**Prerequisites:**
-* Python 3.8+
-* Pip (Python package manager)
+graph TD
+    subgraph Browser_Window ["🖥️ Web Browser Window"]
+        direction TB
+        
+        subgraph Sidebar ["Left Sidebar (Controls)"]
+            A[Select Engine Unit ▼]
+            B[Time Slider ◄▬▬▬●▬▬►]
+        end
+        
+        subgraph Main ["Main Dashboard Area"]
+            Title["🏭 AI-Powered Predictive Maintenance Dashboard"]
+            
+            subgraph Metrics ["Key Metrics Row"]
+                M1[Current Cycle: 105]
+                M2[True RUL: 25]
+                M3[Failure Prob: 89%]
+            end
+            
+            Alert["⚠️ CRITICAL ALERT: High Risk Detected!"]
+            
+            Graph["📈 Line Chart: Sensor Data vs Time"]
+        end
+    end
+    
+    Sidebar -->|Updates| Metrics
+    Sidebar -->|Updates| Alert
+    Sidebar -->|Updates| Graph
+    
+    style Alert fill:#ffcccc,stroke:#ff0000
+    style Metrics fill:#e1f5fe
+    style Sidebar fill:#f0f2f6
 
 ### Installation & Running Instructions
 
