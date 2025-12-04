@@ -51,10 +51,14 @@ This repository includes a **Live Dashboard** built with Streamlit. This dashboa
 
 **Step 1: Clone the Repository**
 ```bash
-git clone [https://github.com/DrahcirSnve/Predictive-Maintenance-Capstone.git](https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git)
+git clone [https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git](https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git)
 cd Predictive-Maintenance-Capstone
-
-**Step 2: Run the Dashboard**
-```bash
+```
+**Step 2: Install Dependencies**
+```
 pip install -r requirements.txt
+```
+**Step 3: Rund the Dashboard**
+```
 streamlit run app.py
+```
