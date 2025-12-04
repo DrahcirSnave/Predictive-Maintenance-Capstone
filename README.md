@@ -28,6 +28,6 @@ graph LR
     D --> F[Streamlit Dashboard];
     E --> F;
     F --> G[Maintenance Alert];
-
+```
 git clone [https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git](https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git)
 cd Predictive-Maintenance-Capstone
