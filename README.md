@@ -1,10 +1,8 @@
-# Predictive-Maintenance-Capstone
-AI-Powered Predictive Maintenance System
 # AI-Powered Predictive Maintenance System 🏭
 
 ### 🏆 Capstone Project | Team Exceptional (Group 1)
 **Course:** ITAI 2272  
-**Authors:** Miguel Mora, Richard Evans, Akinbobola Akinpelu, Jade Sanchez, Olugbenga Adegoroye
+**Authors:** Miguel Mora, Richard Evans, Akinbobola Akinpelu, Olugbenga Adegoroye
 
 ---
 
@@ -28,6 +26,34 @@ graph LR
     D --> F[Streamlit Dashboard];
     E --> F;
     F --> G[Maintenance Alert];
-```
-git clone [https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git](https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git)
+---
+### 📊 Key Results
+* **Latency:** < 100ms (Real-time capable)
+* **Business Impact:** Estimated 40% reduction in downtime and 25% cost savings.
+
+## 🎥 Formal Project Presentation
+You can view our full project presentation slides here:
+[**View AI Model Presentation 2.0**](./AI%20Model%20Presentation%202.0.pptx)
+
+*(Note: Please download the file to view the full PowerPoint)*
+
+---
+
+## 🚀 Live Demonstration
+This repository includes a **Live Dashboard** built with Streamlit. This dashboard simulates real-time sensor data ingestion and shows the AI model predicting engine health.
+
+### Installation & Running Instructions
+
+**Prerequisites:**
+* Python 3.8+
+* Pip (Python package manager)
+
+**Step 1: Clone the Repository**
+```bash
+git clone [https://github.com/DrahcirSnve/Predictive-Maintenance-Capstone.git](https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git)
 cd Predictive-Maintenance-Capstone
+
+**Step 2: Run the Dashboard**
+```bash
+pip install -r requirements.txt
+streamlit run app.py
