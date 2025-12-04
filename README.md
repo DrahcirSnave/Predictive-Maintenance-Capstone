@@ -49,16 +49,17 @@ This repository includes a **Live Dashboard** built with Streamlit. This dashboa
 * Python 3.8+
 * Pip (Python package manager)
 
-**Step 1: Clone the Repository**
+### Installation & Running Instructions
+
+To set up and run the project, open your terminal and run the following commands in order:
+
 ```bash
+# Step 1: Clone the repository and enter the folder
 git clone [https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git](https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git)
 cd Predictive-Maintenance-Capstone
-```
-**Step 2: Install Dependencies**
-```bash
+
+# Step 2: Install the required libraries
 pip install -r requirements.txt
-```
-**Step 3: Run the Dashboard**
-```bash
+
+# Step 3: Launch the Dashboard
 streamlit run app.py
-```
