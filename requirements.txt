@@ -1,9 +1,7 @@
-numpy
+streamlit
 pandas
+numpy
+requests
+scikit-learn
 matplotlib
 seaborn
-scikit-learn
-tensorflow
-shap
-streamlit
-requests
