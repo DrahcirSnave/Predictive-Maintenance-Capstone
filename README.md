@@ -55,10 +55,10 @@ git clone [https://github.com/DrahcirSnave/Predictive-Maintenance-Capstone.git](
 cd Predictive-Maintenance-Capstone
 ```
 **Step 2: Install Dependencies**
-```
+```bash
 pip install -r requirements.txt
 ```
 **Step 3: Rund the Dashboard**
-```
+```bash
 streamlit run app.py
 ```
