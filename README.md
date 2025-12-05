@@ -88,4 +88,4 @@ cd Predictive-Maintenance-Capstone
 pip install -r requirements.txt
 
 # Step 3: Launch the Dashboard
-streamlit run app.py
+python -m streamlit run app.py
